@@ -327,14 +327,13 @@ use Symfony\Component\VarDumper\Cloner\Data;
 
 	    }
 
-		/*public function getIndex()
+		public function getIndex()
 		{
 	
 			$data['ngaji'] = DB::table('ngaji_mulai')->paginate(10);
 			
 			return $this->view ('mulaingaji.index', $data);
-		}*/
-
+		}
 	    //By the way, you can still create your own method in here... :) 
 
 
