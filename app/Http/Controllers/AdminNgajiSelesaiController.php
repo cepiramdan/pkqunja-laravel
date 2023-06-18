@@ -323,7 +323,13 @@
 
 	    }
 
-
+		/*public function getIndex()
+		{
+		
+			$data['ngaji_selesai'] = DB::table('ngaji_selesai')->paginate(10);
+			
+			return $this->view ('selesaingaji.index', $data);
+		}*/
 
 	    //By the way, you can still create your own method in here... :) 
 

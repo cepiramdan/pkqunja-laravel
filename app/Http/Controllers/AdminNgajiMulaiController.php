@@ -4,6 +4,7 @@
 	use Request;
 	use DB;
 	use CRUDBooster;
+use Symfony\Component\VarDumper\Cloner\Data;
 
 	class AdminNgajiMulaiController extends \crocodicstudio\crudbooster\controllers\CBController {
 
@@ -326,7 +327,13 @@
 
 	    }
 
-
+		/*public function getIndex()
+		{
+	
+			$data['ngaji'] = DB::table('ngaji_mulai')->paginate(10);
+			
+			return $this->view ('mulaingaji.index', $data);
+		}*/
 
 	    //By the way, you can still create your own method in here... :) 
 
